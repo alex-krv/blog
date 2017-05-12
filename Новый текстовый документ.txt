@@ -1,0 +1,5 @@
+http://phpfaq.ru/pdo/pdo_wrapper
+
+https://habrahabr.ru/post/150267/
+
+http://amdy.su/class-request/

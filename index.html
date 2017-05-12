@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link href="application/templates/css/bootstrap.min.css" rel="stylesheet">
+    <link href="application/templates/css/style.css" rel="stylesheet">
+	<script src="application/templates/js/postsOperations.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="heading">
+					<div class="menu-icon">
+						<div class="visible-xs">
+							<span class="glyphicon glyphicon-align-justify"></span>
+						</div>
+					</div>
+					<div class="logo">
+						<img src="images/logo.png" class="logo-img">
+					</div>
+					<nav class="nav">
+						<ul class="menu">
+							<li class="e-menu"><a href="" class="e-menu__link">lifestyle</a></li>
+							<li class="e-menu active"><span class="e-menu__link">photodiary</span></li>
+							<li class="e-menu"><a href="" class="e-menu__link">music</a></li>
+							<li class="e-menu"><a href="" class="e-menu__link">travel</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="header-picture">
+					<img src="pictures/minimo_07.jpg">
+				</div>
+			</div>
+		</header>
+		<div class="row main-content">
+			<div class="main-post">
+				<div class="label">
+					photodiary
+				</div>
+				<h1>The perfect weekend getaway</h1>
+				<div class="main-post__content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+				</div>
+				<div class="label">
+					leave a comment
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="create-button" id="create-button">
+						<i class="glyphicon glyphicon-pencil">
+							write an aticle
+						</i>
+					</div>
+				</div>
+				<div class="create-post _hidden" id="create-post">
+					<form class="create-post-form">
+						<input type="text" name="newlabel" id="new-label" placeholder="topic" class="decoration">
+						<input type="text" name="newtitle" id="new-title" placeholder="title" class="decoration">
+						<textarea type="text" name="newcontent" id="new-content" placeholder="content" class="decoration"></textarea><br>
+						<button type="submit" id="create" title="create" class="button-decoration"><i class="glyphicon glyphicon-send"></i></button>
+						<button id="close" title="close" class="button-decoration"><i class="glyphicon glyphicon-remove" ></i></button>
+					</form>	
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="user-posts">
+					<div class="col-sm-6">
+						<div class="user-post">
+							<div class="user-post__picture">
+								<a href=""><img src="pictures/minimo_03.jpeg"></a>
+							</div>
+							<div class="user-post__head">
+								<div class="label">lifestyle</div>
+								<div class="user-post__title">
+									<a href="">More than just a music festival </a> 
+								</div>
+							</div>
+							<div class="user-post__content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+							</div>
+							<div class="post-operations">
+								<i class="glyphicon glyphicon-edit" title="edit" name="edit"></i> 
+								<i class="glyphicon glyphicon-trash" title="delete" name="delete"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="user-post">
+							<div class="user-post__picture">
+								<a href=""><img src="pictures/minimo_06.jpg"></a>
+							</div>
+							<div class="user-post__head">
+								<div class="label">lifestyle</div>
+								<div class="user-post__title">
+									<a href="">Life tastes better with coffee</a> 
+								</div>
+							</div>
+							<div class="user-post__content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+							</div>
+							<div class="post-operations">
+								<i class="glyphicon glyphicon-edit" title="edit" name="edit"></i> 
+								<i class="glyphicon glyphicon-trash" title="delete" name="delete"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="user-post">
+							<div class="user-post__picture">
+								<a href=""><img src="pictures/minimo_34.jpg"></a>
+							</div>
+							<div class="user-post__head">
+								<div class="label">photodiary</div>
+								<div class="user-post__title">
+									<a href=""> American dream</a>
+								</div>
+							</div>
+							<div class="user-post__content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+							</div>
+							<div class="post-operations">
+								<i class="glyphicon glyphicon-edit" title="edit" name="edit"></i> 
+								<i class="glyphicon glyphicon-trash" title="delete" name="delete"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="user-post">
+							<div class="user-post__picture">
+								<a href=""><img src="pictures/minimo_05.jpg"></a>
+							</div>
+							<div class="user-post__head">
+								<div class="label">photodiary</div>
+								<div class="user-post__title">
+									<a href="">A day exploring the Alps</a> 
+								</div>
+							</div>
+							<div class="user-post__content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+							</div>
+							<div class="post-operations">
+								<i class="glyphicon glyphicon-edit button-edit" title="edit"></i> 
+								<i class="glyphicon glyphicon-trash button-delete" title="delete"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row join-form ">
+		<div class="container">
+			<div class="join-form__heading">
+				Sign up for our newsletter!
+			</div>
+			<div class="line">
+				<form>
+					<input type="text" name="user-mail" class="user-mail" placeholder="Enter a valid email address">
+					<button type="submit" class="send"><i class="icon icon-send"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="col-sm-9">
+				<ul class="footer-menu">
+					<li class="e-footer-menu active"><a href="" class="e-footer-menu__link">Terms and conditions</a></li>
+					<li class="e-footer-menu"><a href="" class="e-footer-menu__link">Privacy</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul class="follow-icons">
+					<li class="e-follow-icons">Follow</li>
+					<li class="e-follow-icons"><a href=""><i class="icon icon-fb"></i></a></li>
+					<li class="e-follow-icons"><a href=""><i class="icon icon-tw"></i></a></li>
+					<li class="e-follow-icons"><a href=""><i class="icon icon-inst"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
